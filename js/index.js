@@ -41,6 +41,12 @@ $(document).ready(function() {
         // Disable the seed input
         $('#userSeed').prop('disabled', true);
 
+        // Remove feedback text
+        $('#feedbackText').prop('hidden', true);
+
+        // Remove guideline text
+        $('#guidelineText').prop('hidden', true);
+
         // Then we remove the warning
         $("#seedInputForm").removeClass('has-warning').addClass('has-success');
 
